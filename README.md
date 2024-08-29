@@ -9,22 +9,22 @@ we can't release our stronger version, but we hope this repo will help researche
 Just follow the environmnet configuration of [YOLOv5](https://github.com/ultralytics/yolov5).
 
 ## Install
-
-  '''conda create -n yolov5jde python=3.8
+```bash
+  conda create -n yolov5jde python=3.8
   conda activate yolov5jde
   git clone https://github.com/Mercuryyu/yolov5_jde.git
   cd yolov5_jde
-  pip install -r requirement.txt'''
-
+  pip install -r requirement.txt
+```
 ## Dataset preparation
 
 Just follow the [DATASET_ZOO](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/master/DATASET_ZOO.md) of JDE. The attached dataset comes from here.
 
 ## Training
-
+```bash
 python train.py --cfg  models/yolov5_JDE.yaml
-
+```
 ## Evaluation
-
+```bash
 python track.py --cfg ./models/yolov5_JDE.yaml --weights ./runs/exp/weights/best.pt
-
+```
