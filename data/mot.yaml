@@ -1,4 +1,4 @@
-root: /home/y/yoloJDE/YOLOv5_JDE-master/data
+root: /home/xx/yolov5_jde/data
 
 train: { mot17: ./mot_data/mot17.train,
          cuhksysu: ./mot_data/cuhksysu.train,
