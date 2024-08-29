@@ -1,0 +1,28 @@
+cfg: models/yolov5_JDE.yaml
+data: data/mot.yaml
+hyp: ''
+epochs: 100
+batch_size: 8
+img_size:
+- 1088
+- 608
+rect: false
+resume: false
+nosave: false
+notest: false
+noautoanchor: true
+evolve: false
+bucket: ''
+cache_images: false
+weights: weights/new.pt
+name: ''
+device: 0, 1
+multi_scale: false
+single_cls: false
+adam: false
+sync_bn: false
+local_rank: -1
+logdir: runs/
+total_batch_size: 8
+world_size: 1
+global_rank: -1
