@@ -20,8 +20,6 @@ pip install -r requirement.txt'''
 
 Just follow the [DATASET_ZOO](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/master/DATASET_ZOO.md) of JDE. Download datasets from here.
 
-Just follow the [DATASET_ZOO](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/master/DATASET_ZOO.md) of JDE. Download datasets from here.
-
 ## Training
 
 ```bash
