@@ -18,7 +18,7 @@ pip install -r requirement.txt'''
 ```
 ## Dataset preparation
 
-Just follow the [DATASET_ZOO](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/master/DATASET_ZOO.md) of JDE. Download datasets from here andmodify the path of dataset in data/mot.yaml
+Just follow the [DATASET_ZOO](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/master/DATASET_ZOO.md) of JDE. Download datasets from here and modify the path of dataset in data/mot.yaml
 ```bash
 root: /home/xx/yolov5_jde/data
 ```
